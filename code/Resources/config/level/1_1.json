@@ -1,0 +1,28 @@
+{
+	"backgroundPlist": "images/theme1/BG0/BG1-hd.plist",
+	"background": "BG1-hd.png",
+	"foregroundPlist": "images/theme1/BG1/BG-hd.plist",
+	"foreground": "BG-hd.plist",
+	"bothPoint": {
+		"x": 1,
+		"y": 1
+	},
+	"path": [
+		{
+			"x": 4,
+			"y": 3
+		},
+		{
+			"x": 2,
+			"y": 1
+		},
+	],
+	"towers": [
+		{
+			"type": "bottle",
+			"level": 1,
+			"x": 5,
+			"y": 5
+		}
+	]
+}
