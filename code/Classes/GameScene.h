@@ -14,6 +14,8 @@ CC_CONSTRUCTOR_ACCESS:
 public:
 	static GameScene* getInstance();
 	CREATE_FUNC(GameScene);
+
+	virtual void onEnter();
 private:
 	static GameScene* _instance;
 };

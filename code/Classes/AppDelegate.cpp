@@ -1,4 +1,5 @@
 #include "AppDelegate.h"
+#include "SceneManager.h"
 #include "GameScene.h"
 
 USING_NS_CC;
@@ -28,7 +29,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
 	auto scene = GameScene::getInstance();
     // run
-    director->runWithScene(scene);
+	SceneManager::showScene(scene);
 
     return true;
 }
