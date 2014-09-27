@@ -21,7 +21,7 @@ GameScene* GameScene::getInstance()
 
 void GameScene::onEnter()
 {
-	SpriteFrameCache::getInstance()->addSpriteFramesWithFile("images/tower/TBall-hd.plist");
+	SpriteFrameCache::getInstance()->addSpriteFramesWithFile("images/towers/TBall-hd.plist");
 	auto sprite = Sprite::createWithSpriteFrame(SpriteFrameCache::getInstance()->getSpriteFrameByName("Ball00.png"));
 	sprite->setNormalizedPosition(Vec2(.5f, .5f));
 	addChild(sprite);
